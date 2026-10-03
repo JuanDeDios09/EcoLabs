@@ -1,1 +1,1 @@
-# Sistema-inteligente-de-monitoreo-y-atenci-n-ambiental
+# Sistema-inteligente-de-monitoreo-y-atencion-ambiental
