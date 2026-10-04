@@ -41,7 +41,7 @@ class Alerta:
 
 # ==================== ESTRUCTURAS ====================
 
-ESPACIOS = ["Aula", "Aula 2", "Laboratorio", "Biblioteca"]
+ESPACIOS = ["Aula", "Laboratorio", "Biblioteca"]
 mediciones = []    # Lista: almacena las mediciones
 alertas = deque()  # Cola (FIFO): alertas pendientes
 pila = deque()     # Pila (LIFO): para deshacer registros
@@ -78,7 +78,7 @@ def registrar_medicion():
     global contador_id
     titulo("REGISTRAR MEDICIÓN")
 
-    esp = input("Espacio (Aula, Aula 2, Laboratorio, Biblioteca): ").strip().capitalize()
+    esp = input("Espacio (Aula, Laboratorio, Biblioteca): ").strip().capitalize()
     if esp not in ESPACIOS:
         print("Espacio inválido")
         return
