@@ -66,7 +66,7 @@ def leer_float(mensaje, minimo, maximo):
         except ValueError:
             print("Dato inválido: escribe un número")
             continue
-        if valor < minimo or valor > maximo:
+        if valor != valor or valor < minimo or valor > maximo:  # valor != valor detecta "nan"
             print(f"El valor debe estar entre {minimo} y {maximo}")
             continue
         return valor
@@ -258,7 +258,7 @@ def menu():
         elif opcion == 6:
             estadisticas()
         elif opcion == 7:
-            print("¡Hasta pronto! Gracias por usar SIMEA")
+            print("¡Hasta pronto! Gracias por usar EcoLabs")
             break
         else:
             print("Opción inválida. Intenta de nuevo")
