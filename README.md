@@ -194,8 +194,8 @@ Al ejecutar el programa aparece el menú principal:
 ```
 EcoLabs/
 ├── Sistema_monitoreo_Ecolabs.py        # Código fuente
-├── EcoLabs_Documentacion_Proyecto.docx # Documentación, pruebas y diagrama
-├── Manual_de_uso_EcoLabs.docx          # Manual de uso (1 página)
+├── EcoLabs_Documentacion_Proyecto.pdf  # Documentación, pruebas y diagrama
+├── Manual_de_uso_EcoLabs.pdf           # Manual de uso (1 página)
 ├── Diagrama_de_flujo.png               # Diagrama de flujo del sistema
 └── README.md
 ```
