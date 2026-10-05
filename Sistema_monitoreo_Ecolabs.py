@@ -229,7 +229,7 @@ def estadisticas():
 
 def menu():
     while True:
-        titulo("SIMEA")
+        titulo("EcoLabs")
         print("1. Registrar medición")
         print("2. Consultar mediciones")
         print("3. Consultar alertas pendientes")
